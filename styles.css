@@ -6,22 +6,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&family=Inter:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
-  --bg: #F5EFE3;
+  --bg: #FBF8F1;
   --surface: #FFFFFF;
-  --surface-2: #FAF5E8;
-  --border: rgba(60,45,25,0.10);
-  --border-accent: rgba(60,45,25,0.20);
-  --text: #2A2118;
-  --text-secondary: #5C4F3E;
-  --text-muted: #8B7F6B;
-  --accent: #8B6F3A;
-  --accent-light: #C9A96E;
-  --accent-dark: #5A4422;
-  --green: #4A8B5C;
+  --surface-2: #F2EADA;
+  --border: rgba(120,90,50,0.10);
+  --border-accent: rgba(120,90,50,0.22);
+  --text: #1F1A12;
+  --text-secondary: #5A4F3E;
+  --text-muted: #948872;
+  --accent: #B8924A;
+  --accent-light: #D4B57E;
+  --accent-dark: #7E5F26;
+  --green: #4F8F62;
   --red: #C24545;
   --blue: #3B6FB8;
-  --shadow: 0 1px 3px rgba(60,45,25,0.08);
-  --shadow-lg: 0 8px 32px rgba(60,45,25,0.12);
+  --shadow: 0 1px 3px rgba(120,90,50,0.07);
+  --shadow-lg: 0 8px 32px rgba(120,90,50,0.12);
   --radius: 12px;
   --radius-sm: 8px;
   --radius-xs: 4px;
@@ -117,7 +117,7 @@ p strong { color: var(--text); font-weight: 600; }
   align-items: center;
   justify-content: space-between;
   padding: 16px 48px;
-  background: rgba(245,239,227,0.85);
+  background: rgba(251,248,241,0.88);
   backdrop-filter: blur(20px) saturate(1.2);
   -webkit-backdrop-filter: blur(20px) saturate(1.2);
   border-bottom: 1px solid var(--border);
@@ -240,7 +240,7 @@ p strong { color: var(--text); font-weight: 600; }
   margin: 0 auto;
 }
 .section-alt {
-  background: var(--surface);
+  background: var(--surface-2);
   max-width: none;
 }
 .section-alt-inner {
@@ -249,7 +249,7 @@ p strong { color: var(--text); font-weight: 600; }
   margin: 0 auto;
 }
 .full-bleed {
-  background: var(--surface);
+  background: var(--surface-2);
 }
 
 /* DIVIDER */
@@ -1654,7 +1654,7 @@ p strong { color: var(--text); font-weight: 600; }
     display: none;
     position: fixed;
     inset: 0;
-    background: rgba(245,239,227,0.97);
+    background: rgba(251,248,241,0.98);
     flex-direction: column;
     align-items: center;
     justify-content: center;
