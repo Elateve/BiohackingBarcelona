@@ -1,27 +1,27 @@
 /* ============================================
-   VITARE — Investor Pitch Website
-   Modern Health-Tech Design System
+   Biohacking Barcelona — Investor Pitch Website
+   Light / Beige Design System
    ============================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&family=Inter:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
-  --bg: #0A0A0A;
-  --surface: #141414;
-  --surface-2: #1C1C1C;
-  --border: rgba(255,255,255,0.06);
-  --border-accent: rgba(255,255,255,0.12);
-  --text: #E8E8E8;
-  --text-secondary: #888888;
-  --text-muted: #555555;
-  --accent: #C9A96E;
-  --accent-light: #E8D5B0;
-  --accent-dark: #8B6F3A;
-  --green: #4ADE80;
-  --red: #F87171;
-  --blue: #60A5FA;
-  --shadow: 0 1px 3px rgba(0,0,0,0.3);
-  --shadow-lg: 0 8px 32px rgba(0,0,0,0.4);
+  --bg: #F5EFE3;
+  --surface: #FFFFFF;
+  --surface-2: #FAF5E8;
+  --border: rgba(60,45,25,0.10);
+  --border-accent: rgba(60,45,25,0.20);
+  --text: #2A2118;
+  --text-secondary: #5C4F3E;
+  --text-muted: #8B7F6B;
+  --accent: #8B6F3A;
+  --accent-light: #C9A96E;
+  --accent-dark: #5A4422;
+  --green: #4A8B5C;
+  --red: #C24545;
+  --blue: #3B6FB8;
+  --shadow: 0 1px 3px rgba(60,45,25,0.08);
+  --shadow-lg: 0 8px 32px rgba(60,45,25,0.12);
   --radius: 12px;
   --radius-sm: 8px;
   --radius-xs: 4px;
@@ -117,7 +117,7 @@ p strong { color: var(--text); font-weight: 600; }
   align-items: center;
   justify-content: space-between;
   padding: 16px 48px;
-  background: rgba(10,10,10,0.80);
+  background: rgba(245,239,227,0.85);
   backdrop-filter: blur(20px) saturate(1.2);
   -webkit-backdrop-filter: blur(20px) saturate(1.2);
   border-bottom: 1px solid var(--border);
@@ -208,12 +208,12 @@ p strong { color: var(--text); font-weight: 600; }
 }
 .cover h1 {
   font-family: 'Inter Tight', sans-serif;
-  font-size: clamp(64px, 14vw, 130px);
+  font-size: clamp(48px, 10vw, 104px);
   font-weight: 800;
-  line-height: 0.9;
+  line-height: 0.92;
   letter-spacing: -0.03em;
   color: var(--text);
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 .cover-tagline {
   font-family: 'Inter Tight', sans-serif;
@@ -358,7 +358,7 @@ p strong { color: var(--text); font-weight: 600; }
   font-family: 'Inter Tight', sans-serif;
   font-size: 64px;
   font-weight: 800;
-  color: rgba(255,255,255,0.04);
+  color: rgba(60,45,25,0.06);
   position: absolute;
   top: 16px; right: 24px;
   line-height: 1;
@@ -440,7 +440,7 @@ p strong { color: var(--text); font-weight: 600; }
   padding: 14px 16px;
   transition: border-color 0.3s;
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-  background: rgba(255,255,255,0.02);
+  background: rgba(60,45,25,0.03);
 }
 .test-item:hover { border-color: var(--accent); }
 .test-title {
@@ -916,10 +916,10 @@ p strong { color: var(--text); font-weight: 600; }
   font-weight: 600;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--accent-light);
+  color: #FFFFFF;
   opacity: 0;
   transition: opacity 0.4s ease;
-  background: rgba(10,10,10,0.7);
+  background: rgba(42,33,24,0.78);
   padding: 4px 10px;
   border-radius: var(--radius-xs);
   backdrop-filter: blur(4px);
@@ -1312,7 +1312,7 @@ p strong { color: var(--text); font-weight: 600; }
 .fin-table tbody tr {
   border-bottom: 1px solid var(--border);
 }
-.fin-table tbody tr:hover { background: rgba(255,255,255,0.02); }
+.fin-table tbody tr:hover { background: rgba(60,45,25,0.03); }
 .fin-table tbody td {
   padding: 11px 12px;
   color: var(--text-secondary);
@@ -1361,7 +1361,7 @@ p strong { color: var(--text); font-weight: 600; }
   padding: 8px 12px;
 }
 .fin-table tr.tot td {
-  background: rgba(255,255,255,0.02);
+  background: rgba(60,45,25,0.04);
   font-weight: 600;
   color: var(--text);
   border-top: 1px solid var(--border-accent);
@@ -1654,7 +1654,7 @@ p strong { color: var(--text); font-weight: 600; }
     display: none;
     position: fixed;
     inset: 0;
-    background: rgba(10,10,10,0.97);
+    background: rgba(245,239,227,0.97);
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -1669,7 +1669,7 @@ p strong { color: var(--text); font-weight: 600; }
   .section-alt-inner { padding: 48px 20px; }
   .vibe-section { padding: 48px 20px; }
   .cover { padding: 80px 20px 48px; }
-  .cover h1 { font-size: clamp(48px, 14vw, 80px); }
+  .cover h1 { font-size: clamp(40px, 11vw, 64px); }
 
   .name-grid,
   .pillars-grid,
